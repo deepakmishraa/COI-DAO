@@ -1,0 +1,28 @@
+@font-face {
+  font-family: poppins;
+  src: url("../fonts/fonts/glyphicons-halflings-regular.woff");
+}
+
+body,
+html {
+  font-family: "poppins", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  font-family: "poppins", sans-serif;
+}

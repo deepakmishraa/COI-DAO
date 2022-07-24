@@ -1,0 +1,52 @@
+
+    
+  #orangeButton {
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fea054,
+              0 0 .2rem rgb(70, 70, 70),
+              0 0 2rem #fea054,
+              0 0 0.8rem #fea054,
+              0 0 2.8rem #fea054,
+              inset 0 0 1.3rem #fea054; 
+  }
+  
+  .addOrangeNeon:hover{
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fea054,
+              0 0 .2rem rgb(70, 70, 70),
+              0 0 2rem #fea054,
+              0 0 0.8rem #fea054,
+              0 0 2.8rem #fea054,
+              inset 0 0 1.3rem #fea054; 
+  }
+
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+    
+    }
+    
+    0% {
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #bc13fe,
+      0 0 45px #bc13fe,
+      0 0 55px #bc13fe,
+      0 0 70px #bc13fe,
+      0 0 80px #bc13fe;
+  }
+}
